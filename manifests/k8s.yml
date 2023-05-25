@@ -13,12 +13,12 @@ spec:
         app: kafka-consumer
     spec:
       containers:
-      - image: docker.io/saithcond/kafka_consumer:{github.sha}
+      - image: docker.io/{docker_user}/{model_name}:{github.sha}
         name: kafka-consumer
 #        envFrom:
 #        - configMapRef:
 #            name: adsoftsito-config
-#        livenessProbe:
+#        livenessProbe:  no
 #          httpGet:
 #            path: /ht/
 #            port: 8080
