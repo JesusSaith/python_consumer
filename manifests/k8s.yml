@@ -13,7 +13,7 @@ spec:
         app: kafka-consumer
     spec:
       containers:
-      - image: https://hub.docker.com/repository/docker/saithcond/kafka_consumer
+      - image: docker.io/{docker_user}/{model_name}:{github.sha}
         name: kafka-consumer
 #        envFrom:
 #        - configMapRef:
