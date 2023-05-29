@@ -11,7 +11,7 @@ import subprocess
 
 
 # replace here with your mongodb url 
-uri = "mongodb+srv://yisuscond:<password>@cluster1.wibvj8n.mongodb.net/?retryWrites=true&w=majority"
+uri = "mongodb+srv://yisuscond:chicles11@cluster1.wibvj8n.mongodb.net/?retryWrites=true&w=majority"
 
 
 # Create a new client and connect to the server
