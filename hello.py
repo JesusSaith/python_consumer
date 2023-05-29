@@ -1,7 +1,7 @@
 from pyspark.sql import SparkSession
 #uri = "mongodb+srv://adsoft:adsoft-sito@cluster0.kzghgph.mongodb.net/?retryWrites=true&w=majority"
-uri = "mongodb+srv://adsoft:adsoft-sito@cluster0.kzghgph.mongodb.net/memes?retryWrites=true&w=majority"
-uri_out = "mongodb+srv://adsoft:adsoft-sito@cluster0.kzghgph.mongodb.net/memes.memes_summary?retryWrites=true&w=majority"
+uri = "mongodb+srv://SAITH:MlHeSE6n1S7Sycsl@cluster0.h6hg7b4.mongodb.net/?retryWrites=true&w=majority"
+uri_out = "mongodb+srv://SAITH:MlHeSE6n1S7Sycsl@cluster0.h6hg7b4.mongodb.net/?retryWrites=true&w=majority"
 
 if __name__ == "__main__":
     spark = SparkSession\
